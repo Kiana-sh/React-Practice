@@ -1,0 +1,29 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.poster {
+    width: 100%;
+    height: auto;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.li {
+    width: 10%;
+    padding: 5px;
+}
+.li .genre {
+    color: rgba(250, 250, 250, 0.8);
+    font-size: 12px;
+}
+.title-link {
+    text-decoration: none;
+    color: #fff;
+}
